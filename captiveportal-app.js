@@ -556,6 +556,20 @@ var App = function () {
                 $('body').removeClass('modal-open');
             }
         });
+
+        $('a[rel=modal]').on('click', function(evt) {
+            evt.preventDefault();
+            var modal = $('#modal').modal();
+            modal
+            .find('.modal-body')
+            .load($(this).attr('href'), function (responseText, textStatus) {
+                if ( textStatus === 'success' || 
+                textStatus === 'notmodified') 
+                {
+                    modal.show();
+                }
+            });
+        });
     }
 
     var handlePopovers = function () {

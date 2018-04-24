@@ -72,7 +72,7 @@ form li{
 }
 
 .icon{
-	background:url(../images/icons.png)  no-repeat 0px 0px;
+	background:url(captiveportal-icons.png)  no-repeat 0px 0px;
 	height:30px;
 	width:30px;
 	display: block;
@@ -81,15 +81,15 @@ form li{
 }
 
 .user{
-	background: url(../images/icons.png) no-repeat 12px 11px;
+	background: url(captiveportal-icons.png) no-repeat 12px 11px;
 	
 }
 .lock{
-	background: url(../images/icons.png) no-repeat -17px 11px;
+	background: url(captiveportal-icons.png) no-repeat -17px 11px;
 }
 input[type="text"], input[type="password"] {
 	font-family: 'Open Sans', sans-serif;
-	width:60%;
+	width:90%;
 	padding:0.7em 2em 0.7em 1.7em;
 	color:#858282;
 	font-size:18px;
@@ -188,7 +188,7 @@ input[type="submit"]:hover{
 	-webkit-transition: opacity 0.1s;
 }
 .p-container .checkbox input + i:after {
-	content:url(../images/tick.png) no-repeat 7px 1px;
+	content:url(captiveportal-tick.png) no-repeat 7px 1px;
 	top:-15px;
 	left:1px;
 	width: 15px;
@@ -349,10 +349,10 @@ input[type="submit"]:hover{
 	width:69%;
 	}
 	.user {
-		background: url(../images/icons.png) no-repeat 12px 4px;
+		background: url(captiveportal-icons.png) no-repeat 12px 4px;
 	}
 	.lock {
-		background: url(../images/icons.png) no-repeat -20px 3px;
+		background: url(captiveportal-icons.png) no-repeat -20px 3px;
 	}
 	.p-container .checkbox {
 	float: none;

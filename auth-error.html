@@ -36,7 +36,12 @@
 			<img src="captiveportal-mem2.jpg" alt=""/>
 			
 		</div>
-		<form method="post" action="$PORTAL_ACTION$">			
+		<form method="post" action="$PORTAL_ACTION$">
+			
+			<div class="alert alert-danger">
+				<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+				<strong>Invalid Credentials! </strong>Please try again
+			</div>
 			
 			<li>
 				<input name="auth_user" type="text" class="text" 
@@ -98,16 +103,17 @@
 	</div>
 	
 	<!--start-copyright
-		<div class="copy-right">
-			<p>2014 &copy; <a href="http://7sec.com.br/">By 7 Sec</a></p> 
-		</div>
-		//end-copyright-->
-		<script>
-			jQuery(document).ready(function() {     
-				App.init();
-				Login.init();
-			});
-		</script>
+	<div class="copy-right">
+		<p>2014 &copy; <a href="http://7sec.com.br/">By 7 Sec</a></p> 
+	</div>
+	<!-- end-copyright-->
+	
+	<script>
+		jQuery(document).ready(function() {     
+			App.init();
+			Login.init();
+		});
+	</script>
 		
 	</body>
 	</html>
