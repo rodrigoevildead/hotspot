@@ -2,6 +2,8 @@
 
 A responsive template for pfSense Captive Portal. Feel free to download and modify.
 
+![Screenshot](screenshot.png)
+
 ## Getting Started
 Follow the instructions to get a copy of this project on your local machine.
 
